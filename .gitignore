@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pkl
+
+# EEPROM snapshots contain device identifiers (serial, head id); never commit them
+backup_l1119_*.json
+backup_*.json
